@@ -1,0 +1,13 @@
+-- select * from tm_kka_aspek;
+
+-- insert into tm_kka_aspek (kode_aspek , nama_aspek)values('PI','Pelajar');
+-- 
+-- update tm_kka_aspek set kode_aspek='BI' where nama_aspek ='Perawat'; 
+-- 
+-- delete from tm_kka_aspek where nama_aspek='Pembersih';
+
+select * from tm_kka_tugas order by avg(bulan_ke) desc limit 2;
+
+perintah di atas merupakan proses manipulasi data dan melakukan testing data apakah berhasil atau tidak berhasil.
+ada perintah yang mengalami error yaitu fungsi agregsi, join, except, union, dan order by dikarenakan databasenya kurang kompleks dan masih banyak kekurangan sehingga mengalami
+error.
